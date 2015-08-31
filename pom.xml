@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-select</artifactId>
-    <version>1.7.4-SNAPSHOT</version>
+    <version>1.7.3-1-SNAPSHOT</version>
     <name>bootstrap-select</name>
     <description>WebJar for bootstrap-select</description>
     <url>http://webjars.org</url>
@@ -55,7 +55,10 @@
         <requirejs>
             {
                 "paths": {
-                    "bootstrap-select": "js/bootstrap-select"
+                    "bootstrap-select": "js/bootstrap-select",
+                    "bootstrap-select-min": "js/bootstrap-select.min",
+                    "bootstrap-select-css": "js/bootstrap-select.css",
+                    "bootstrap-select-css-min": "js/bootstrap-select.min.css"
                 }
             }
         </requirejs>
