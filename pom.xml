@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-select</artifactId>
-    <version>1.7.3-2-SNAPSHOT</version>
+    <version>1.9.4</version>
     <name>bootstrap-select</name>
     <description>WebJar for bootstrap-select</description>
     <url>http://webjars.org</url>
@@ -43,13 +43,13 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
-            <version>2.3.2</version>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.7.3</upstream.version>
+        <upstream.version>1.9.4</upstream.version>
         <upstream.url>https://github.com/silviomoreto/bootstrap-select/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
@@ -57,8 +57,8 @@
                 "paths": {
                     "bootstrap-select": "js/bootstrap-select",
                     "bootstrap-select-min": "js/bootstrap-select.min",
-                    "bootstrap-select-css": "js/bootstrap-select.css",
-                    "bootstrap-select-css-min": "js/bootstrap-select.min.css"
+                    "bootstrap-select-css": "css/bootstrap-select.css",
+                    "bootstrap-select-css-min": "css/bootstrap-select.min.css"
                 }
             }
         </requirejs>
