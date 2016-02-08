@@ -59,6 +59,10 @@
                     "bootstrap-select-min": "js/bootstrap-select.min",
                     "bootstrap-select-css": "css/bootstrap-select.css",
                     "bootstrap-select-css-min": "css/bootstrap-select.min.css"
+                },
+                "shim": {
+                    "bootstrap-select": ["bootstrap", "jquery"],
+                    "bootstrap-select-min": ["bootstrap", "jquery"]
                 }
             }
         </requirejs>
