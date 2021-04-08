@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap-select</artifactId>
-    <version>1.13.19-SNAPSHOT</version>
+    <version>1.14.0-beta2-SNAPSHOT</version>
     <name>bootstrap-select</name>
     <description>WebJar for bootstrap-select</description>
     <url>http://webjars.org</url>
